@@ -1,0 +1,14 @@
+Passos para fazer um projeto de testes com Selenium e Cucumber
+
+Digite os seguintes comandos no terminal:
+
+npm init -y
+
+npm install selenium-webdriver
+
+npm install --save-dev @cucumber/cucumber
+
+Configurar:
+
+"test": "npx cucumber-js" dentro do arquivo packege.json
+
